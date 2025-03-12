@@ -58,6 +58,9 @@
     <Compile Include="4335_Yakimova.xaml.cs">
       <DependentUpon>4335_Yakimova.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Ilin_4335.xaml.cs">
+      <DependentUpon>Ilin_4335.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Kurmanova_4335.xaml.cs">
       <DependentUpon>Kurmanova_4335.xaml</DependentUpon>
     </Compile>
@@ -74,6 +77,10 @@
       <DependentUpon>Zhelvakov_4335.xaml</DependentUpon>
     </Compile>
     <Page Include="4335_Yakimova.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Ilin_4335.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

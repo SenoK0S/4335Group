@@ -61,5 +61,11 @@ namespace _4335Project
             new Gappoev_4335().Show();
             this.Close();
         }
+
+        private void Ilin_4335_Click(object sender, RoutedEventArgs e)
+        {
+            new Ilin_4335().Show();
+            Hide();
+        }
     }
 }
